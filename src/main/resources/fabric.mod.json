@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "krypton-client",
+  "version": "0.1.0",
+  "name": "Krypton Client",
+  "description": "Custom utility client",
+  "authors": [
+    "harelmo94-dev"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.krypton.client.KryptonClient"
+    ],
+    "client": [
+      "net.krypton.client.KryptonClient"
+    ]
+  },
+  "mixins": [
+    "krypton.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
